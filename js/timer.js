@@ -28,7 +28,7 @@ class Timer extends Darth_Vader{
     }
 
 
-    if_end_of_timer(){
+    if_timer_finish(){
         $(this.days_text).html(0);
         $(this.hours_text).html(0);
         $(this.minutes_text).html(0);
@@ -53,7 +53,6 @@ class Timer extends Darth_Vader{
 
     set_progress(){
         this.refresh_timer();
-        console.log(this.time_left);
         if(this.time_left.days > 0 && this.time_left.hours > 0 && this.time_left.minutes > 0){
             this.refresh_timer();
 
@@ -65,7 +64,7 @@ class Timer extends Darth_Vader{
             $(this.hours_text).html(this.time_left.hours);
             $(this.minutes_text).html(this.time_left.minutes);
         }else{
-            this.if_end_of_timer();
+            this.if_timer_finish();
         }
     }
 

@@ -72,6 +72,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 
+    gap: 20px 50px;
     margin-top: 86px;
 
     color: white;
@@ -89,7 +90,7 @@ body{
     width: 240px;
     height: 240px;
 
-    margin: 10px 50px;
+    /*margin: 10px 50px;*/
 
     border: 8px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
