@@ -18,7 +18,6 @@ body{
 
 
     color: whitesmoke;
-    text-shadow: 1px 1px 1px dimgrey;
 }
 .left_col{
     display: grid;
@@ -54,6 +53,8 @@ body{
 .right_col{
     display: flex;
     align-items: center;
+    color: white;
+    text-decoration: none;
 }
 
 .main_wrapper{

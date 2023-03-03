@@ -18,7 +18,7 @@ class Timer extends Darth_Vader{
     }
 
     refresh_timer(){
-        this.time_left = this.date.difference(this.date.present().ms, this.date.future_set(2023, 3).ms);
+        this.time_left = this.date.difference(this.date.present().ms, this.date.future_set(2023, 4).ms);
     }
 
 
