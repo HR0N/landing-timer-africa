@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <meta name="format-detection" content="telephone=no">
-    <title>Enerji sistemleri</title>
+    <title>Yeni Doğal Enerji Sistemleri</title>
 </head>
 <body>
 
