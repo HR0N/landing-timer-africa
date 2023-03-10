@@ -25,10 +25,10 @@
             <div class="logo">
                 <img src="media/logo.png" alt="logo">
             </div>
-            <div class="text">
+            <!--<div class="text">
                 <div>Yeni Doğal</div>
                 <div>Enerji sistemleri</div>
-            </div>
+            </div>-->
         </div>
 
 
@@ -70,7 +70,7 @@
                 <div>DAKİKA</div>
             </div>
         </div>
-        <div class="description">Açmadan önce ayrılda</div>
+        <div class="description">Açılışa kaldı</div>
     </div>
 
 

@@ -55,7 +55,6 @@ class Timer extends Darth_Vader{
 
     set_progress(){
         this.refresh_timer();
-        console.log(this.time_left);
         if(this.time_left.difference_ms > 0){
             this.refresh_timer();
 
