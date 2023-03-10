@@ -83,7 +83,9 @@ class DateClass {
     // The function returns the time difference between the future and the present. | object
     difference(present_ms, future_ms){
         let difference_ms = future_ms - present_ms;
-        return this.msToTime(difference_ms);
+        let difference_obj = this.msToTime(difference_ms);
+        difference_obj.difference_ms = difference_ms;
+        return difference_obj;
     }
 
 

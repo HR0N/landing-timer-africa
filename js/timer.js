@@ -18,7 +18,9 @@ class Timer extends Darth_Vader{
     }
 
     refresh_timer(){
-        this.time_left = this.date.difference(this.date.present().ms, this.date.future_set(2023, 4).ms);
+        let present_time = this.date.present().ms;
+        let future_time = this.date.future_set(2023, 3, 25).ms;
+        this.time_left = this.date.difference(present_time, future_time);
     }
 
 
@@ -53,7 +55,8 @@ class Timer extends Darth_Vader{
 
     set_progress(){
         this.refresh_timer();
-        if(this.time_left.days > 0 && this.time_left.hours > 0 && this.time_left.minutes > 0){
+        console.log(this.time_left);
+        if(this.time_left.difference_ms > 0){
             this.refresh_timer();
 
             this.set_days();
